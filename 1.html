@@ -531,7 +531,7 @@
         
         <li><div class="divider"></div></li>
         <li>
-            <a href="https://github.com/muyiio" class="waves-effect waves-light" target="_blank">
+            <a href="https://github.com/levi996/levi996.github.io.git" class="waves-effect waves-light" target="_blank">
                 <i class="fa fa-github-square fa-fw"></i>Fork Me
             </a>
         </li>
@@ -587,7 +587,7 @@
     }
 </style>
 
-<a href="https://github.com/muyiio" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+<a href="https://github.com/levi996/levi996.github.io.git" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
    data-tooltip="Fork Me" data-position="left" data-delay="50">
     <svg viewBox="0 0 250 250" aria-hidden="true">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -619,7 +619,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/13.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -1230,9 +1230,9 @@ hexo d</code></pre><p>现在访问我们的网站就可以看到主题已经更�
     let gitalk = new Gitalk({
         clientID: '',
         clientSecret: '',
-        repo: 'muyiio.github.io',
-        owner: 'MUYIio',
-        admin: "MUYIio",
+        repo: 'levi996.github.io',
+        owner: 'Mak',
+        admin: "Mak",
         id: '1.html',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
@@ -1525,7 +1525,7 @@ hexo d</code></pre><p>现在访问我们的网站就可以看到主题已经更�
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="VMware 安装 CentOS 8.1 完整教程 ">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="VMware 安装 CentOS 8.1 完整教程 ">
                         
                         <span class="card-title">VMware 安装 CentOS 8.1 完整教程 </span>
                     </div>
@@ -1578,7 +1578,7 @@ hexo d</code></pre><p>现在访问我们的网站就可以看到主题已经更�
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Github + Hexo 搭建个人博客超详细教程">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Github + Hexo 搭建个人博客超详细教程">
                         
                         <span class="card-title">Github + Hexo 搭建个人博客超详细教程</span>
                     </div>
@@ -1630,43 +1630,6 @@ hexo d</code></pre><p>现在访问我们的网站就可以看到主题已经更�
 </article>
 </div>
 
-
-<script>
-    $('#articleContent').on('copy', function (e) {
-        // IE8 or earlier browser is 'undefined'
-        if (typeof window.getSelection === 'undefined') return;
-
-        var selection = window.getSelection();
-        // if the selection is short let's not annoy our users.
-        if (('' + selection).length < Number.parseInt('120')) {
-            return;
-        }
-
-        // create a div outside of the visible area and fill it with the selected text.
-        var bodyElement = document.getElementsByTagName('body')[0];
-        var newdiv = document.createElement('div');
-        newdiv.style.position = 'absolute';
-        newdiv.style.left = '-99999px';
-        bodyElement.appendChild(newdiv);
-        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
-
-        // we need a <pre> tag workaround.
-        // otherwise the text inside "pre" loses all the line breaks!
-        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
-            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
-        }
-
-        var url = document.location.href;
-        newdiv.innerHTML += '<br />'
-            + '来源: Mak`s Blog<br />'
-            + '作者: Mak42<br />'
-            + '链接: <a href="' + url + '">' + url + '</a><br />'
-            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
-
-        selection.selectAllChildren(newdiv);
-        window.setTimeout(function () { bodyElement.removeChild(newdiv); }, 200);
-    });
-</script>
 
     </div>
     <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
@@ -1766,25 +1729,6 @@ hexo d</code></pre><p>现在访问我们的网站就可以看到主题已经更�
 </main>
 
 
-<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
-    MathJax.Hub.Config({
-        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
-    });
-</script>
-
-<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
-<!-- 代码语言 -->
-<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
-<!-- 代码块复制 -->
-<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
-<script type="text/javascript" src="/libs/codeBlock/clipboard.min.js"></script>
-<!-- 代码块收缩 -->
-<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script> 
-<!-- 代码块折行 -->
-<style type="text/css">code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }</style>
-
-
     <footer class="page-footer bg-color">
     <div class="container row center-align">
        <div class="Copy-right">
@@ -1825,7 +1769,7 @@ hexo d</code></pre><p>现在访问我们的网站就可以看到主题已经更�
 
 
 
-    <a href="https://www.zhihu.com/zhihu.com/people/muyiio" class="tooltipped" target="_blank" data-tooltip="访问我的知乎" data-position="top" data-delay="50">
+    <a href="https://www.zhihu.com/zhihu.com/" class="tooltipped" target="_blank" data-tooltip="访问我的知乎" data-position="top" data-delay="50">
         <i class="fa fa-inverse">知</i>
     </a>
 
@@ -1911,6 +1855,8 @@ hexo d</code></pre><p>现在访问我们的网站就可以看到主题已经更�
     });
 </script>
 
+
+
 <script language=javascript>
     function siteTime() {
         window.setTimeout("siteTime()", 1000);
@@ -1934,7 +1880,7 @@ hexo d</code></pre><p>现在访问我们的网站就可以看到主题已经更�
         minutes - 0-59之间的整数，做为date对象的分钟数
         seconds - 0-59之间的整数，做为date对象的秒数
         microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-        var t1 = Date.UTC(2020, 01, 01, 00, 00, 00); //北京时间2018-2-13 00:00:00
+        var t1 = Date.UTC(2022, 10, 01, 00, 00, 00); //北京时间2018-2-13 00:00:00
         var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
         var diff = t2 - t1;
         var diffYears = Math.floor(diff / years);
@@ -1942,8 +1888,8 @@ hexo d</code></pre><p>现在访问我们的网站就可以看到主题已经更�
         var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
         var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
         var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
-        document.getElementById("sitetime").innerHTML = "本站已运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
-    }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
+        document.getElementById("sitetime").innerHTML = "小破站已运行 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+    }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消 diffYears + " 年 " */
     siteTime();
 </script>
 

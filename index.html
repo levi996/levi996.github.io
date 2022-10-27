@@ -527,7 +527,7 @@
         
         <li><div class="divider"></div></li>
         <li>
-            <a href="https://github.com/muyiio" class="waves-effect waves-light" target="_blank">
+            <a href="https://github.com/levi996/levi996.github.io.git" class="waves-effect waves-light" target="_blank">
                 <i class="fa fa-github-square fa-fw"></i>Fork Me
             </a>
         </li>
@@ -583,7 +583,7 @@
     }
 </style>
 
-<a href="https://github.com/muyiio" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+<a href="https://github.com/levi996/levi996.github.io.git" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
    data-tooltip="Fork Me" data-position="left" data-delay="50">
     <svg viewBox="0 0 250 250" aria-hidden="true">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -679,7 +679,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 </a>
 
                 
-                <a href="https://github.com/MUYIio/hexo-themes-matery" class="waves-effect waves-light btn" target="_blank">
+                <a href="https://github.com/levi996/levi996.github.io.git" class="waves-effect waves-light btn" target="_blank">
                     <i class="fa fa-github-alt"></i>Github
                 </a>
                 
@@ -693,7 +693,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
 
 
-    <a href="https://www.zhihu.com/zhihu.com/people/muyiio" class="tooltipped" target="_blank" data-tooltip="访问我的知乎" data-position="top" data-delay="50">
+    <a href="https://www.zhihu.com/zhihu.com/" class="tooltipped" target="_blank" data-tooltip="访问我的知乎" data-position="top" data-delay="50">
         <i class="fa fa-inverse">知</i>
     </a>
 
@@ -822,7 +822,7 @@ $(function () {
     
     
     <div class="col s12" >
-        <div class="post-card" style="background-image: url('/medias/featureimages/13.jpg')">
+        <div class="post-card" style="background-image: url('/medias/featureimages/12.jpg')">
             <div class="post-body">
                 <div class="post-categories">
                     
@@ -864,7 +864,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="VMware 安装 CentOS 8.1 完整教程 ">
+                            <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="VMware 安装 CentOS 8.1 完整教程 ">
                             
                             <span class="card-title">VMware 安装 CentOS 8.1 完整教程 </span>
                         </div>
@@ -915,7 +915,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Github + Hexo 搭建个人博客超详细教程">
+                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Github + Hexo 搭建个人博客超详细教程">
                             
                             <span class="card-title">Github + Hexo 搭建个人博客超详细教程</span>
                         </div>
@@ -1014,7 +1014,7 @@ $(function () {
 
 
 
-    <a href="https://www.zhihu.com/zhihu.com/people/muyiio" class="tooltipped" target="_blank" data-tooltip="访问我的知乎" data-position="top" data-delay="50">
+    <a href="https://www.zhihu.com/zhihu.com/" class="tooltipped" target="_blank" data-tooltip="访问我的知乎" data-position="top" data-delay="50">
         <i class="fa fa-inverse">知</i>
     </a>
 
@@ -1100,6 +1100,8 @@ $(function () {
     });
 </script>
 
+
+
 <script language=javascript>
     function siteTime() {
         window.setTimeout("siteTime()", 1000);
@@ -1123,7 +1125,7 @@ $(function () {
         minutes - 0-59之间的整数，做为date对象的分钟数
         seconds - 0-59之间的整数，做为date对象的秒数
         microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-        var t1 = Date.UTC(2020, 01, 01, 00, 00, 00); //北京时间2018-2-13 00:00:00
+        var t1 = Date.UTC(2022, 10, 01, 00, 00, 00); //北京时间2018-2-13 00:00:00
         var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
         var diff = t2 - t1;
         var diffYears = Math.floor(diff / years);
@@ -1131,8 +1133,8 @@ $(function () {
         var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
         var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
         var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
-        document.getElementById("sitetime").innerHTML = "本站已运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
-    }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
+        document.getElementById("sitetime").innerHTML = "小破站已运行 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+    }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消 diffYears + " 年 " */
     siteTime();
 </script>
 
